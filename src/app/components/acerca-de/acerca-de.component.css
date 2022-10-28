@@ -1,0 +1,36 @@
+.row {
+	padding: 10px;
+}
+
+div {
+	background-color: #ff3e00;
+	text-align: center;
+}
+
+/* Etiqueta <fotoPerfil> */
+@media (min-width: 576px) {
+	#fotoPerfil {
+		position: absolute;
+		width: 15%;
+		border-radius: 100%;
+		left: 3%;
+		top: 300px;
+	}
+}
+
+@media (max-width: 575px) {
+	#fotoPerfil {
+		position: absolute;
+		width: 35%;
+		border-radius: 100%;
+		transform: translate(-50%, -50%);
+		/*left: 35%;
+		top: 280px;*/
+	}
+}
+
+/* Etiqueta <nombre> */
+#nombre {
+	font-weight: bold;
+	margin-top: 25%;
+}
