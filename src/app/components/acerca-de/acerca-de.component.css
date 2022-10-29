@@ -18,6 +18,7 @@ div {
 	}
 }
 
+/*--- Para la vista en smartphone ---*/
 @media (max-width: 575px) {
 	#fotoPerfil {
 		position: absolute;
