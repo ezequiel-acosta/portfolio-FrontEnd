@@ -11,11 +11,13 @@ div {
 /* Etiqueta <fotoPerfil> */
 @media (min-width: 576px) {
 	#fotoPerfil {
-		position: absolute;
-		width: 15%;
 		border-radius: 100%;
-		left: 3%;
-		top: 300px;
+	}
+
+	.descripcion {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
